@@ -1,9 +1,9 @@
 # Skill Lab Documentation – RV College of Engineering
 
-** Date:** April 21, 2025  
-** College:** RV College of Engineering  
-** Department:** AIML (Artificial Intelligence & Machine Learning)  
-** Semester:** IV  
+**Date:** April 21, 2025  
+**College:** RV College of Engineering  
+**Department:** AIML (Artificial Intelligence & Machine Learning)  
+**Semester:** IV  
 
 ---
 
