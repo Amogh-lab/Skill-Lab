@@ -1,15 +1,15 @@
-# 🧠 Skill Lab Documentation – RV College of Engineering
+# Skill Lab Documentation – RV College of Engineering
 
-**📅 Date:** April 21, 2025  
-**🏫 College:** RV College of Engineering  
-**🏢 Department:** AIML (Artificial Intelligence & Machine Learning)  
-**📚 Semester:** IV  
+** Date:** April 21, 2025  
+** College:** RV College of Engineering  
+** Department:** AIML (Artificial Intelligence & Machine Learning)  
+** Semester:** IV  
 
 ---
 
-## ⏰ Morning Session – MongoDB (NoSQL Database)
+##  Morning Session – MongoDB (NoSQL Database)
 
-### ✅ Topics Covered:
+###  Topics Covered:
 - Introduction to NoSQL databases
 - Features of MongoDB
 - Differences between SQL and NoSQL
@@ -24,16 +24,16 @@
 - Introduction to BSON format and `_id`
 - Overview of CRUD operations
 
-### 💡 Learnings:
+###  Learnings:
 - MongoDB allows flexible schemas – great for dynamic and large datasets
 - Simple to use with a JSON-like syntax
 - Learned core commands for document creation, retrieval, updating, and deletion
 
 ---
 
-## 🌐 Afternoon Session – HTML & CSS
+##  Afternoon Session – HTML & CSS
 
-### ✅ Topics Covered:
+###  Topics Covered:
 - HTML5 structure and semantics
 - Inline vs Internal vs External CSS
 - CSS Selectors and styling
@@ -43,7 +43,7 @@
 - Centering elements using margin auto
 - Creating a clean and accessible UI layout
 
-### 🧾 Mini Project Done in Class:
+###  Mini Project Done in Class:
 **Title:** Student Database  
 **Theme:** RVCE – AIML – IV Sem  
 
@@ -71,7 +71,7 @@
 
 ---
 
-## 🚀 Summary:
+##  Summary:
 A well-rounded skill lab session that covered:
 - Real-world database management with MongoDB
 - Front-end fundamentals using HTML & CSS
@@ -79,4 +79,4 @@ A well-rounded skill lab session that covered:
 
 ---
 
-*Crafted with curiosity and code at RVCE 👨‍💻✨*
+*Crafted with curiosity and code at RVCE *
