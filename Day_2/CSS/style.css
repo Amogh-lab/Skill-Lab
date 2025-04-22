@@ -1,0 +1,35 @@
+body {
+    background-color: #f5f5f5;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-left, .box-right {
+    display: flex;
+    padding: 80px;
+    position: relative;
+}
+
+/* LEFT box animation */
+.box-left {
+    color: black;
+    left: 0;
+    animation: moveleft 5s linear infinite alternate;
+}
+
+/* RIGHT box animation */
+.box-right {
+    color: blue;
+    left: 0;
+    animation: moveright 5s linear infinite alternate;
+}
+
+@keyframes moveleft {
+    0% { left: 0; }
+    100% { left: 100%; }
+}
+
+@keyframes moveright {
+    0% { left: 100%; }
+    100% { left: 0; }
+}

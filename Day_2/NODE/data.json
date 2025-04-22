@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Aarav Mehta",
+      "email": "aarav.mehta@example.com",
+      "age": 24,
+      "country": "India",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Sophia Williams",
+      "email": "sophia.williams@example.com",
+      "age": 30,
+      "country": "USA",
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "Kenji Takahashi",
+      "email": "kenji.takahashi@example.com",
+      "age": 27,
+      "country": "Japan",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "Lucía García",
+      "email": "lucia.garcia@example.com",
+      "age": 22,
+      "country": "Spain",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Oliver Müller",
+      "email": "oliver.mueller@example.com",
+      "age": 35,
+      "country": "Germany",
+      "isActive": false
+    }
+  ]
+  

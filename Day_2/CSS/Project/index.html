@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RVCE Subjects Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    
+    .navbar {
+      background-color: #002147;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      flex: 1;
+    }
+
+    .sidebar {
+      background-color: #f4f4f4;
+      padding: 20px;
+      width: 250px;
+      border-right: 1px solid #ccc;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 15px;
+      font-size: 1.2rem;
+      color: #002147;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+    }
+
+    .sidebar li {
+      margin-bottom: 10px;
+      padding: 8px;
+      background-color: #ddd;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .sidebar li:hover {
+      background-color: #bbb;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 30px;
+    }
+
+    .subject-section {
+      margin-bottom: 40px;
+    }
+
+    .subject-section h3 {
+      color: #002147;
+      margin-bottom: 10px;
+    }
+
+    .subject-section p {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    RV College of Engineering (RVCE)
+  </div>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>Subjects</h2>
+      <ul>
+        <li>Discrete Maths</li>
+        <li>AIML</li>
+        <li>Computer Network</li>
+        <li>DAA</li>
+        <li>DSDA</li>
+        <li>Cyber Physical System</li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <div class="subject-section">
+        <h3>Discrete Maths</h3>
+        <p>Topics include logic, set theory, graph theory, combinatorics, and number theory essential for computer science.</p>
+      </div>
+
+      <div class="subject-section">
+        <h3>AIML</h3>
+        <p>Focuses on Artificial Intelligence and Machine Learning algorithms, models, and real-world applications.</p>
+      </div>
+
+      <div class="subject-section">
+        <h3>Computer Network</h3>
+        <p>Covers network architecture, protocols, TCP/IP, OSI model, and basic routing principles.</p>
+      </div>
+
+      <div class="subject-section">
+        <h3>DAA</h3>
+        <p>Design and Analysis of Algorithms helps build efficient and optimized solutions using divide & conquer, greedy, and dynamic programming techniques.</p>
+      </div>
+
+      <div class="subject-section">
+        <h3>DSDA</h3>
+        <p>Data Science and Data Analysis explores preprocessing, EDA, visualization, and data-driven decision-making processes.</p>
+      </div>
+
+      <div class="subject-section">
+        <h3>Cyber Physical System</h3>
+        <p>Focuses on systems where physical and software components are deeply intertwined such as IoT, embedded systems, and real-time applications.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

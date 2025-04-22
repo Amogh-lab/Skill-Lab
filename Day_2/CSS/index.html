@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotating Moving Boxes</title>
+  <style>
+    body {
+      background-image: url('https://images.unsplash.com/photo-1468657988500-aca2be09f4c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      margin: 0;
+      overflow: hidden;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .box {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border-radius: 20px;
+    }
+
+    .box-left {
+      background-color: #FF6B6B;
+      animation: moveLeftToRight 6s linear infinite;
+    }
+
+    .box-right {
+      background-color: #4D96FF;
+      animation: moveRightToLeft 10s linear infinite;
+    }
+
+    @keyframes moveLeftToRight {
+      0% {
+        transform: translateX(-160px) translateY(-50%) rotate(0deg);
+      }
+      100% {
+        transform: translateX(100vw) translateY(-50%) rotate(360deg);
+      }
+    }
+
+    @keyframes moveRightToLeft {
+      0% {
+        transform: translateX(100vw) translateY(-50%) rotate(0deg);
+      }
+      100% {
+        transform: translateX(-160px) translateY(-50%) rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- <div class="box box-left"></div>
+  <div class="box box-right"></div> -->
+
+  <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+  </div>
+  <p>row wrap</p>
+
+div*9>
+</body>
+</html>

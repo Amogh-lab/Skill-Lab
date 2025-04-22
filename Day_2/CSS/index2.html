@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Floating Orbs</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: radial-gradient(circle at center, #1a1a1a, #000000, #000000);
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(51, 51, 51, 0.527);
+      box-shadow: 0 0 20px rgba(10, 11, 92, 0.527);
+      animation: floatUp 12s ease-in-out infinite, flicker 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes floatUp {
+      0% {
+        transform: translateY(100vh) scale(0.7);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-10vh) scale(1.3);
+        opacity: 0;
+      }
+    }
+
+    @keyframes flicker {
+      0% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.534); }
+      100% { box-shadow: 0 0 30px rgba(112, 112, 112, 0.8); }
+    }
+
+    /* Example styles for a few orbs - you can copy/modify to create more */
+    .orb:nth-child(1) {
+      width: 20px;
+      height: 20px;
+      left: 10%;
+      animation-delay: 1s;
+    }
+
+    .orb:nth-child(2) {
+      width: 30px;
+      height: 30px;
+      left: 25%;
+      animation-delay: 2s;
+    }
+
+    .orb:nth-child(3) {
+      width: 25px;
+      height: 25px;
+      left: 40%;
+      animation-delay: 3s;
+    }
+
+    .orb:nth-child(4) {
+      width: 35px;
+      height: 35px;
+      left: 60%;
+      animation-delay: 0.5s;
+    }
+
+    .orb:nth-child(5) {
+      width: 15px;
+      height: 15px;
+      left: 75%;
+      animation-delay: 4s;
+    }
+
+    .orb:nth-child(6) {
+      width: 28px;
+      height: 28px;
+      left: 90%;
+      animation-delay: 6s;
+    }
+    .box {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border-radius: 20px;
+    }
+
+    .box-left {
+      background-color: #FF6B6B;
+      animation: moveLeftToRight 6s linear infinite;
+    }
+
+    .box-right {
+      background-color: #4D96FF;
+      animation: moveRightToLeft 10s linear infinite;
+    }
+
+    @keyframes moveLeftToRight {
+      0% {
+        transform: translateX(-160px) translateY(-50%) rotate(0deg);
+      }
+      100% {
+        transform: translateX(100vw) translateY(-50%) rotate(360deg);
+      }
+    }
+
+    @keyframes moveRightToLeft {
+      0% {
+        transform: translateX(100vw) translateY(-50%) rotate(0deg);
+      }
+      100% {
+        transform: translateX(-160px) translateY(-50%) rotate(360deg);
+      }
+    }
+
+    .flex{
+        display: flex;
+        justify-content: first baseline;
+        top: 0;
+        bottom: 200px;
+    }
+    /* Add more .orb:nth-child(n) entries if needed */
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <!-- Add more .orb divs here -->
+  </div>
+  <div class="flex">
+  <div class="box box-left"></div>
+  <div class="box box-right"></div>
+  </div>
+</body>
+</html>
