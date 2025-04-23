@@ -1,7 +1,9 @@
-cat << 'EOF' > README.md
-# 🧠 RVCE Skill Lab - Day 2
+# Skill Lab Documentation – RV College of Engineering
 
-This document summarizes the HTML, CSS, and JavaScript activities done during the Skill Lab session on **Day 2** at RV College of Engineering (RVCE).
+**Date:** April 22, 2025  
+**College:** RV College of Engineering  
+**Department:** AIML (Artificial Intelligence & Machine Learning)  
+**Semester:** IV  
 
 ---
 

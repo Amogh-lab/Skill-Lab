@@ -1,5 +1,11 @@
-# RVCE Skill Lab Day 3 - Node.js & React
+# Skill Lab Documentation – RV College of Engineering
 
+**Date:** April 23, 2025  
+**College:** RV College of Engineering  
+**Department:** AIML (Artificial Intelligence & Machine Learning)  
+**Semester:** IV  
+
+---
 ## Overview
 
 In this skill lab session, we worked with the following technologies:
