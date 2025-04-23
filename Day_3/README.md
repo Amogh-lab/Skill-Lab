@@ -125,26 +125,26 @@ export default App
 
 2. Place your `jasondata_2.json` file in the root directory.
 
-3. Create a file `server.js` and add the above backend code.
+3. Create a file `node_1.js` and add the above backend code.
 
 4. Start the server:
 ```bash
-    node server.js
+    node node_1.js
 ```
 
 ### 2. **Frontend (React)**
 
-1. Create a new React app:
+1. Use Frontend ( VITE + REACT-js )
 ```bash
-    npx create-react-app counter-app
-    cd counter-app
+    npm install
+    npm run dev
 ```
 
 2. Replace the contents of `src/App.js` with the above React code.
 
 3. Start the React app:
 ```bash
-    npm start
+    npm run dev
 ```
 
 # Summary
